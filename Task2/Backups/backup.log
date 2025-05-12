@@ -1,0 +1,36 @@
+2025-05-08 00:33:58 - Memulai backup database classicmodels
+2025-05-08 00:33:59 - ERROR: Backup gagal untuk database classicmodels
+2025-05-08 00:33:59 - Memulai backup database fkdemo
+2025-05-08 00:34:00 - ERROR: Backup gagal untuk database fkdemo
+2025-05-08 00:34:00 - Memulai backup database testdb2
+2025-05-08 00:34:01 - ERROR: Backup gagal untuk database testdb2
+2025-05-08 00:35:21 - Memulai backup database classicmodels
+2025-05-08 00:35:21 - ERROR: Backup gagal untuk database classicmodels
+2025-05-08 00:35:21 - Memulai backup database fkdemo
+2025-05-08 00:35:21 - ERROR: Backup gagal untuk database fkdemo
+2025-05-08 00:35:21 - Memulai backup database testdb2
+2025-05-08 00:35:21 - ERROR: Backup gagal untuk database testdb2
+2025-05-08 00:35:46 - Memulai backup database classicmodels
+2025-05-08 00:35:46 - ERROR: Backup gagal untuk database classicmodels
+2025-05-08 00:35:46 - Memulai backup database fkdemo
+2025-05-08 00:35:46 - ERROR: Backup gagal untuk database fkdemo
+2025-05-08 00:35:46 - Memulai backup database testdb2
+2025-05-08 00:35:46 - ERROR: Backup gagal untuk database testdb2
+2025-05-08 00:36:34 - Memulai backup database classicmodels
+2025-05-08 00:36:35 - Backup berhasil: C:\Users\Administrator\Downloads\Task2\Backups\classicmodels-2025-05-08.sql
+2025-05-08 00:36:35 - Memulai backup database fkdemo
+2025-05-08 00:36:35 - Backup berhasil: C:\Users\Administrator\Downloads\Task2\Backups\fkdemo-2025-05-08.sql
+2025-05-08 00:36:35 - Memulai backup database testdb2
+2025-05-08 00:36:35 - Backup berhasil: C:\Users\Administrator\Downloads\Task2\Backups\testdb2-2025-05-08.sql
+2025-05-08 00:40:29 - Memulai backup database classicmodels
+2025-05-08 00:40:29 - ERROR: Backup gagal untuk database classicmodels
+2025-05-08 00:40:29 - Memulai backup database fkdemo
+2025-05-08 00:40:30 - ERROR: Backup gagal untuk database fkdemo
+2025-05-08 00:40:30 - Memulai backup database testdb2
+2025-05-08 00:40:30 - ERROR: Backup gagal untuk database testdb2
+2025-05-08 00:42:07 - Memulai backup database classicmodels
+2025-05-08 00:42:07 - Backup berhasil: C:\Users\Administrator\Downloads\Task2\Backups\Daily\classicmodels-2025-05-08.sql
+2025-05-08 00:42:07 - Memulai backup database fkdemo
+2025-05-08 00:42:07 - Backup berhasil: C:\Users\Administrator\Downloads\Task2\Backups\Daily\fkdemo-2025-05-08.sql
+2025-05-08 00:42:07 - Memulai backup database testdb2
+2025-05-08 00:42:07 - Backup berhasil: C:\Users\Administrator\Downloads\Task2\Backups\Daily\testdb2-2025-05-08.sql

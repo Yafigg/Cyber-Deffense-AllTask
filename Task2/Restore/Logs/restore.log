@@ -1,0 +1,4 @@
+2025-05-08 00:42:16 - Starting restore from .\Backups\Daily\classicmodels-2025-05-08.sql
+2025-05-08 00:42:16 - ERROR: Restore failed!
+2025-05-08 00:45:25 - Starting restore for database classicmodels from .\Backups\Daily\classicmodels-2025-05-08.sql
+2025-05-08 00:45:25 - Restore successful to database: classicmodels
