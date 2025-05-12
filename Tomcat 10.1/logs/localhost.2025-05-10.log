@@ -1,0 +1,396 @@
+10-May-2025 11:33:02.673 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-May-2025 11:33:02.673 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-May-2025 11:33:02.675 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@48c4245d')
+10-May-2025 11:33:02.904 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+10-May-2025 11:33:03.471 SEVERE [main] org.apache.catalina.realm.JNDIRealm.startInternal Exception opening directory server connection
+	javax.naming.CommunicationException: localhost:10389 [Root exception is java.net.ConnectException: Connection refused: connect]
+		at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:252)
+		at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+		at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2847)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:266)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:226)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:284)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:185)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:115)
+		at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:730)
+		at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+		at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+		at java.naming/javax.naming.InitialContext.<init>(InitialContext.java:208)
+		at java.naming/javax.naming.directory.InitialDirContext.<init>(InitialDirContext.java:101)
+		at org.apache.catalina.realm.JNDIRealm.createDirContext(JNDIRealm.java:2549)
+		at org.apache.catalina.realm.JNDIRealm.open(JNDIRealm.java:2519)
+		at org.apache.catalina.realm.JNDIRealm.get(JNDIRealm.java:2474)
+		at org.apache.catalina.realm.JNDIRealm.startInternal(JNDIRealm.java:2726)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4358)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1125)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1924)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1036)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:422)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+		at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+		at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+		at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+		at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.base/java.net.Socket.connect(Socket.java:609)
+		at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:335)
+		at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:231)
+		... 59 more
+10-May-2025 11:33:03.511 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+10-May-2025 11:33:03.511 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+10-May-2025 11:33:03.511 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+10-May-2025 11:33:03.511 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+10-May-2025 11:33:30.152 FINER [Thread-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+10-May-2025 11:33:30.152 FINER [Thread-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+10-May-2025 11:33:30.152 FINER [Thread-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+10-May-2025 11:33:30.152 INFO [Thread-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-May-2025 11:33:30.168 INFO [Thread-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-May-2025 11:33:32.746 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-May-2025 11:33:32.746 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-May-2025 11:33:32.761 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@44c5a16f')
+10-May-2025 11:33:32.871 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+10-May-2025 11:33:33.418 SEVERE [main] org.apache.catalina.realm.JNDIRealm.startInternal Exception opening directory server connection
+	javax.naming.CommunicationException: localhost:10389 [Root exception is java.net.ConnectException: Connection refused: connect]
+		at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:252)
+		at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+		at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2847)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:266)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:226)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:284)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:185)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:115)
+		at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:730)
+		at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+		at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+		at java.naming/javax.naming.InitialContext.<init>(InitialContext.java:208)
+		at java.naming/javax.naming.directory.InitialDirContext.<init>(InitialDirContext.java:101)
+		at org.apache.catalina.realm.JNDIRealm.createDirContext(JNDIRealm.java:2549)
+		at org.apache.catalina.realm.JNDIRealm.open(JNDIRealm.java:2519)
+		at org.apache.catalina.realm.JNDIRealm.get(JNDIRealm.java:2474)
+		at org.apache.catalina.realm.JNDIRealm.startInternal(JNDIRealm.java:2726)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4358)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1125)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1924)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1036)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:422)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+		at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+		at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+		at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+		at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.base/java.net.Socket.connect(Socket.java:609)
+		at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:335)
+		at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:231)
+		... 59 more
+10-May-2025 11:33:33.433 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+10-May-2025 11:33:33.433 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+10-May-2025 11:33:33.433 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+10-May-2025 11:33:33.433 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+10-May-2025 11:49:25.878 FINER [Thread-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+10-May-2025 11:49:25.878 FINER [Thread-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+10-May-2025 11:49:25.878 FINER [Thread-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+10-May-2025 11:49:25.878 INFO [Thread-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-May-2025 11:49:25.878 INFO [Thread-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-May-2025 11:49:28.515 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-May-2025 11:49:28.515 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-May-2025 11:49:28.515 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@44c5a16f')
+10-May-2025 11:49:28.640 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+10-May-2025 11:49:29.202 SEVERE [main] org.apache.catalina.realm.JNDIRealm.startInternal Exception opening directory server connection
+	javax.naming.CommunicationException: localhost:10389 [Root exception is java.net.ConnectException: Connection refused: connect]
+		at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:252)
+		at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+		at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2847)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:266)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:226)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:284)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:185)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:115)
+		at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:730)
+		at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+		at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+		at java.naming/javax.naming.InitialContext.<init>(InitialContext.java:208)
+		at java.naming/javax.naming.directory.InitialDirContext.<init>(InitialDirContext.java:101)
+		at org.apache.catalina.realm.JNDIRealm.createDirContext(JNDIRealm.java:2549)
+		at org.apache.catalina.realm.JNDIRealm.open(JNDIRealm.java:2519)
+		at org.apache.catalina.realm.JNDIRealm.get(JNDIRealm.java:2474)
+		at org.apache.catalina.realm.JNDIRealm.startInternal(JNDIRealm.java:2726)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4358)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1125)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1924)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1036)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:422)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+		at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+		at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+		at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+		at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.base/java.net.Socket.connect(Socket.java:609)
+		at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:335)
+		at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:231)
+		... 59 more
+10-May-2025 11:49:29.218 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+10-May-2025 11:49:29.218 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+10-May-2025 11:49:29.218 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+10-May-2025 11:49:29.218 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+10-May-2025 12:16:43.765 FINER [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+10-May-2025 12:16:43.765 FINER [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+10-May-2025 12:16:43.765 FINER [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+10-May-2025 12:16:43.767 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-May-2025 12:16:43.767 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-May-2025 12:16:59.433 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-May-2025 12:16:59.433 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-May-2025 12:16:59.448 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@44f3fe83')
+10-May-2025 12:16:59.589 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+10-May-2025 12:16:59.635 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+10-May-2025 12:16:59.651 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+10-May-2025 12:16:59.651 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+10-May-2025 12:16:59.651 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+10-May-2025 12:18:02.220 FINER [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+10-May-2025 12:18:02.220 FINE [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationDispatcher.doForward The response class [class org.apache.catalina.connector.Response] could not be unwraped to the Catalina response class and will be closed immediately after the forward
+10-May-2025 12:18:06.646 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.JNDIRealm.getAttributeValue   retrieving attribute userPassword
+10-May-2025 12:18:06.647 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.JNDIRealm.getUser Found user by pattern [org.apache.catalina.realm.JNDIRealm$User@5414967a]
+10-May-2025 12:18:06.647 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.JNDIRealm.compareCredentials   validating credentials
+10-May-2025 12:18:06.647 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.JNDIRealm.checkCredentials Username [John Fryer] NOT successfully authenticated
+10-May-2025 12:18:06.652 FINER [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+10-May-2025 12:18:06.652 FINE [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationDispatcher.doForward The response class [class org.apache.catalina.connector.Response] could not be unwraped to the Catalina response class and will be closed immediately after the forward
+10-May-2025 12:18:14.736 FINER [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+10-May-2025 12:18:14.736 FINE [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationDispatcher.doForward The response class [class org.apache.catalina.connector.Response] could not be unwraped to the Catalina response class and will be closed immediately after the forward
+10-May-2025 12:19:09.392 FINER [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+10-May-2025 12:19:09.392 FINE [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationDispatcher.doForward The response class [class org.apache.catalina.connector.Response] could not be unwraped to the Catalina response class and will be closed immediately after the forward
+10-May-2025 12:20:07.912 FINER [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+10-May-2025 12:20:07.912 FINE [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationDispatcher.doForward The response class [class org.apache.catalina.connector.Response] could not be unwraped to the Catalina response class and will be closed immediately after the forward
+10-May-2025 12:20:50.264 FINER [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+10-May-2025 12:20:50.264 FINE [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationDispatcher.doForward The response class [class org.apache.catalina.connector.Response] could not be unwraped to the Catalina response class and will be closed immediately after the forward
+10-May-2025 12:21:27.594 FINER [http-nio-8080-exec-8] org.apache.catalina.realm.JNDIRealm.getUser Found user by pattern [null]
+10-May-2025 12:21:27.595 FINER [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+10-May-2025 12:21:27.595 FINE [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationDispatcher.doForward The response class [class org.apache.catalina.connector.Response] could not be unwraped to the Catalina response class and will be closed immediately after the forward
+10-May-2025 12:21:41.409 FINER [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+10-May-2025 12:21:41.409 FINE [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationDispatcher.doForward The response class [class org.apache.catalina.connector.Response] could not be unwraped to the Catalina response class and will be closed immediately after the forward
+10-May-2025 12:21:44.036 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.JNDIRealm.getAttributeValue   retrieving attribute userPassword
+10-May-2025 12:21:44.036 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.JNDIRealm.getUser Found user by pattern [org.apache.catalina.realm.JNDIRealm$User@6dd15adb]
+10-May-2025 12:21:44.036 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.JNDIRealm.compareCredentials   validating credentials
+10-May-2025 12:21:44.036 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.JNDIRealm.checkCredentials Username [John Fryer] NOT successfully authenticated
+10-May-2025 12:21:44.036 FINER [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+10-May-2025 12:21:44.036 FINE [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationDispatcher.doForward The response class [class org.apache.catalina.connector.Response] could not be unwraped to the Catalina response class and will be closed immediately after the forward
+10-May-2025 12:25:25.201 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-May-2025 12:25:25.201 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-May-2025 12:25:25.203 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6272c96f')
+10-May-2025 12:25:25.412 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+10-May-2025 12:25:25.966 SEVERE [main] org.apache.catalina.realm.JNDIRealm.startInternal Exception opening directory server connection
+	javax.naming.CommunicationException: localhost:10389 [Root exception is java.net.ConnectException: Connection refused: connect]
+		at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:252)
+		at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+		at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2847)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:266)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:226)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:284)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:185)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:115)
+		at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:730)
+		at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+		at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+		at java.naming/javax.naming.InitialContext.<init>(InitialContext.java:208)
+		at java.naming/javax.naming.directory.InitialDirContext.<init>(InitialDirContext.java:101)
+		at org.apache.catalina.realm.JNDIRealm.createDirContext(JNDIRealm.java:2549)
+		at org.apache.catalina.realm.JNDIRealm.open(JNDIRealm.java:2519)
+		at org.apache.catalina.realm.JNDIRealm.get(JNDIRealm.java:2474)
+		at org.apache.catalina.realm.JNDIRealm.startInternal(JNDIRealm.java:2726)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4358)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1125)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1924)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1036)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:422)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+		at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+		at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+		at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+		at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.base/java.net.Socket.connect(Socket.java:609)
+		at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:335)
+		at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:231)
+		... 59 more
+10-May-2025 12:25:26.017 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+10-May-2025 12:25:26.017 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+10-May-2025 12:25:26.018 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+10-May-2025 12:25:26.018 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+10-May-2025 12:25:56.730 FINER [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+10-May-2025 12:26:50.521 FINER [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+10-May-2025 12:29:10.341 FINER [Thread-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+10-May-2025 12:29:10.341 FINER [Thread-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+10-May-2025 12:29:10.341 FINER [Thread-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+10-May-2025 12:29:10.349 INFO [Thread-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-May-2025 12:29:10.349 INFO [Thread-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-May-2025 12:29:12.293 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-May-2025 12:29:12.293 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-May-2025 12:29:12.293 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@417d6615')
+10-May-2025 12:29:12.374 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+10-May-2025 12:29:12.408 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+10-May-2025 12:29:12.408 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+10-May-2025 12:29:12.408 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+10-May-2025 12:29:12.408 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+10-May-2025 12:31:34.699 FINER [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+10-May-2025 12:33:13.505 FINER [Thread-9] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+10-May-2025 12:33:13.505 FINER [Thread-9] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+10-May-2025 12:33:13.505 FINER [Thread-9] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+10-May-2025 12:33:13.505 FINER [Thread-9] org.apache.catalina.realm.JNDIRealm.close Closing directory context
+10-May-2025 12:33:13.505 INFO [Thread-9] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-May-2025 12:33:13.505 INFO [Thread-9] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

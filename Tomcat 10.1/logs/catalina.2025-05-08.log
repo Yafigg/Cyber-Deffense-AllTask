@@ -1,0 +1,653 @@
+08-May-2025 05:41:19.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+08-May-2025 05:41:19.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+08-May-2025 05:41:19.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+08-May-2025 05:41:19.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+08-May-2025 05:41:19.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-May-2025 05:41:19.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2025 05:41:19.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+08-May-2025 05:41:19.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+08-May-2025 05:41:19.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+08-May-2025 05:41:19.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 05:41:19.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 05:41:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 05:41:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 05:41:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+08-May-2025 05:41:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2025 05:41:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+08-May-2025 05:41:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2025 05:41:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2025 05:41:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2025 05:41:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+08-May-2025 05:41:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+08-May-2025 05:41:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+08-May-2025 05:41:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+08-May-2025 05:41:19.145 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+08-May-2025 05:41:19.394 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-May-2025 05:41:19.410 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [565] milliseconds
+08-May-2025 05:41:19.488 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2025 05:41:19.488 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+08-May-2025 05:41:19.488 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+08-May-2025 05:41:19.566 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+08-May-2025 05:41:19.925 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [437] ms
+08-May-2025 05:41:19.925 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+08-May-2025 05:41:21.098 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [1,173] ms
+08-May-2025 05:41:21.098 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+08-May-2025 05:41:21.144 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [46] ms
+08-May-2025 05:41:21.144 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+08-May-2025 05:41:21.175 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [31] ms
+08-May-2025 05:41:21.175 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+08-May-2025 05:41:21.206 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [31] ms
+08-May-2025 05:41:21.222 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-May-2025 05:41:21.253 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1828] milliseconds
+08-May-2025 05:45:35.568 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-May-2025 05:45:35.605 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2025 05:45:35.633 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-May-2025 05:45:35.646 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+08-May-2025 05:45:37.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+08-May-2025 05:45:37.318 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+08-May-2025 05:45:37.506 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+08-May-2025 05:45:37.521 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [387] milliseconds
+08-May-2025 05:45:37.568 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2025 05:45:37.568 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+08-May-2025 05:45:37.584 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+08-May-2025 05:45:37.647 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+08-May-2025 05:45:37.865 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [281] ms
+08-May-2025 05:45:37.865 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+08-May-2025 05:45:38.084 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [219] ms
+08-May-2025 05:45:38.084 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+08-May-2025 05:45:38.115 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [31] ms
+08-May-2025 05:45:38.115 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+08-May-2025 05:45:38.131 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [16] ms
+08-May-2025 05:45:38.131 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+08-May-2025 05:45:38.146 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [15] ms
+08-May-2025 05:45:38.146 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+08-May-2025 05:45:38.178 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [643] milliseconds
+08-May-2025 05:48:18.382 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+08-May-2025 05:48:18.398 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [16] ms
+08-May-2025 05:49:18.508 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/sample]
+08-May-2025 05:49:18.508 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sample] has started
+08-May-2025 05:49:18.570 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sample] is completed
+08-May-2025 05:56:19.291 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+08-May-2025 05:56:19.291 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2025 05:56:19.322 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+08-May-2025 05:56:19.338 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+08-May-2025 05:56:21.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+08-May-2025 05:56:21.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+08-May-2025 05:56:21.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+08-May-2025 05:56:21.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+08-May-2025 05:56:21.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-May-2025 05:56:21.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2025 05:56:21.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+08-May-2025 05:56:21.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+08-May-2025 05:56:21.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+08-May-2025 05:56:21.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 05:56:21.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 05:56:21.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 05:56:21.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 05:56:21.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+08-May-2025 05:56:21.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2025 05:56:21.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+08-May-2025 05:56:21.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2025 05:56:21.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2025 05:56:21.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2025 05:56:21.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+08-May-2025 05:56:21.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+08-May-2025 05:56:21.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+08-May-2025 05:56:21.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+08-May-2025 05:56:21.065 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+08-May-2025 05:56:21.276 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+08-May-2025 05:56:21.301 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [437] milliseconds
+08-May-2025 05:56:21.353 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2025 05:56:21.353 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+08-May-2025 05:56:21.370 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+08-May-2025 05:56:21.442 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+08-May-2025 05:56:21.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [328] ms
+08-May-2025 05:56:21.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+08-May-2025 05:56:21.994 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [296] ms
+08-May-2025 05:56:21.994 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+08-May-2025 05:56:22.010 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [16] ms
+08-May-2025 05:56:22.010 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+08-May-2025 05:56:22.025 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [15] ms
+08-May-2025 05:56:22.025 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+08-May-2025 05:56:22.041 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [16] ms
+08-May-2025 05:56:22.041 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+08-May-2025 05:56:22.088 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [47] ms
+08-May-2025 05:56:22.088 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+08-May-2025 05:56:22.104 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [814] milliseconds
+08-May-2025 05:58:40.355 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+08-May-2025 05:58:40.355 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2025 05:58:40.386 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+08-May-2025 05:58:40.402 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+08-May-2025 06:32:28.286 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
+08-May-2025 06:32:28.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+08-May-2025 06:32:28.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+08-May-2025 06:32:28.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+08-May-2025 06:32:28.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+08-May-2025 06:32:28.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-May-2025 06:32:28.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2025 06:32:28.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+08-May-2025 06:32:28.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+08-May-2025 06:32:28.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+08-May-2025 06:32:28.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 06:32:28.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 06:32:28.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 06:32:28.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 06:32:28.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+08-May-2025 06:32:28.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2025 06:32:28.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+08-May-2025 06:32:28.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2025 06:32:28.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2025 06:32:28.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2025 06:32:28.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+08-May-2025 06:32:28.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+08-May-2025 06:32:28.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+08-May-2025 06:32:28.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+08-May-2025 06:32:28.395 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+08-May-2025 06:32:28.645 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+08-May-2025 06:32:28.676 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [613] milliseconds
+08-May-2025 06:32:28.755 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2025 06:32:28.755 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+08-May-2025 06:32:28.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+08-May-2025 06:32:28.921 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+08-May-2025 06:32:29.311 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [462] ms
+08-May-2025 06:32:29.311 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+08-May-2025 06:32:30.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [1,298] ms
+08-May-2025 06:32:30.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+08-May-2025 06:32:30.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [43] ms
+08-May-2025 06:32:30.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+08-May-2025 06:32:30.693 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [41] ms
+08-May-2025 06:32:30.693 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+08-May-2025 06:32:30.719 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [26] ms
+08-May-2025 06:32:30.719 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+08-May-2025 06:32:30.782 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [63] ms
+08-May-2025 06:32:30.782 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+08-May-2025 06:32:30.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [24] ms
+08-May-2025 06:32:30.818 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+08-May-2025 06:32:30.846 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2158] milliseconds
+08-May-2025 06:36:51.198 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Task4]
+08-May-2025 06:36:51.225 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+08-May-2025 06:36:51.240 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [15] ms
+08-May-2025 06:37:38.335 FINE [http-nio-9090-exec-8] org.apache.catalina.realm.MemoryRealm.authenticate Username [admin] successfully authenticated
+08-May-2025 06:39:31.460 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%2010.1/conf/tomcat-users.xml]
+08-May-2025 06:39:37.819 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+08-May-2025 06:39:37.819 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2025 06:39:37.850 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+08-May-2025 06:39:37.866 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+08-May-2025 06:39:39.498 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
+08-May-2025 06:39:39.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+08-May-2025 06:39:39.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+08-May-2025 06:39:39.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+08-May-2025 06:39:39.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+08-May-2025 06:39:39.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-May-2025 06:39:39.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2025 06:39:39.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+08-May-2025 06:39:39.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+08-May-2025 06:39:39.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+08-May-2025 06:39:39.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 06:39:39.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 06:39:39.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 06:39:39.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 06:39:39.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+08-May-2025 06:39:39.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2025 06:39:39.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+08-May-2025 06:39:39.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2025 06:39:39.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2025 06:39:39.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2025 06:39:39.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+08-May-2025 06:39:39.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+08-May-2025 06:39:39.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+08-May-2025 06:39:39.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+08-May-2025 06:39:39.532 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+08-May-2025 06:39:39.723 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+08-May-2025 06:39:39.741 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [379] milliseconds
+08-May-2025 06:39:39.778 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2025 06:39:39.779 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+08-May-2025 06:39:39.808 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+08-May-2025 06:39:39.856 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+08-May-2025 06:39:40.063 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [254] ms
+08-May-2025 06:39:40.063 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+08-May-2025 06:39:40.309 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [245] ms
+08-May-2025 06:39:40.309 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+08-May-2025 06:39:40.334 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [24] ms
+08-May-2025 06:39:40.334 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+08-May-2025 06:39:40.357 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [22] ms
+08-May-2025 06:39:40.357 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+08-May-2025 06:39:40.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [9] ms
+08-May-2025 06:39:40.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+08-May-2025 06:39:40.397 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [31] ms
+08-May-2025 06:39:40.397 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+08-May-2025 06:39:40.413 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [16] ms
+08-May-2025 06:39:40.413 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+08-May-2025 06:39:40.449 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [708] milliseconds
+08-May-2025 06:39:59.583 FINE [http-nio-9090-exec-2] org.apache.catalina.realm.MemoryRealm.authenticate Username [testuser] successfully authenticated
+08-May-2025 06:41:36.616 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+08-May-2025 06:41:36.632 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2025 06:41:36.663 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+08-May-2025 06:41:36.679 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+08-May-2025 06:41:38.320 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
+08-May-2025 06:41:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+08-May-2025 06:41:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+08-May-2025 06:41:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+08-May-2025 06:41:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+08-May-2025 06:41:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-May-2025 06:41:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2025 06:41:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+08-May-2025 06:41:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+08-May-2025 06:41:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+08-May-2025 06:41:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 06:41:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 06:41:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 06:41:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 06:41:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+08-May-2025 06:41:38.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2025 06:41:38.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+08-May-2025 06:41:38.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2025 06:41:38.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2025 06:41:38.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2025 06:41:38.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+08-May-2025 06:41:38.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+08-May-2025 06:41:38.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+08-May-2025 06:41:38.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+08-May-2025 06:41:38.367 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+08-May-2025 06:41:38.539 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+08-May-2025 06:41:38.554 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [369] milliseconds
+08-May-2025 06:41:38.601 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2025 06:41:38.601 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+08-May-2025 06:41:38.617 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+08-May-2025 06:41:38.679 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+08-May-2025 06:41:38.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [296] ms
+08-May-2025 06:41:38.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+08-May-2025 06:41:39.148 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [235] ms
+08-May-2025 06:41:39.148 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+08-May-2025 06:41:39.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [16] ms
+08-May-2025 06:41:39.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+08-May-2025 06:41:39.195 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [16] ms
+08-May-2025 06:41:39.195 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+08-May-2025 06:41:39.226 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [31] ms
+08-May-2025 06:41:39.226 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+08-May-2025 06:41:39.241 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [15] ms
+08-May-2025 06:41:39.241 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+08-May-2025 06:41:39.273 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [32] ms
+08-May-2025 06:41:39.273 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+08-May-2025 06:41:39.304 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [743] milliseconds
+08-May-2025 06:42:00.246 FINE [http-nio-9090-exec-9] org.apache.catalina.realm.MemoryRealm.authenticate Username [testuser] successfully authenticated
+08-May-2025 06:43:49.419 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%2010.1/conf/tomcat-users.xml]
+08-May-2025 06:48:19.574 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+08-May-2025 06:48:19.589 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2025 06:48:19.622 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+08-May-2025 06:48:19.652 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:48:58.919 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
+08-May-2025 19:48:59.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+08-May-2025 19:48:59.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+08-May-2025 19:48:59.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+08-May-2025 19:48:59.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+08-May-2025 19:48:59.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-May-2025 19:48:59.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2025 19:48:59.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+08-May-2025 19:48:59.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+08-May-2025 19:48:59.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+08-May-2025 19:48:59.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 19:48:59.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 19:48:59.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 19:48:59.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 19:48:59.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+08-May-2025 19:48:59.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2025 19:48:59.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+08-May-2025 19:48:59.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2025 19:48:59.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2025 19:48:59.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2025 19:48:59.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+08-May-2025 19:48:59.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+08-May-2025 19:48:59.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+08-May-2025 19:48:59.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+08-May-2025 19:48:59.153 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+08-May-2025 19:48:59.809 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:48:59.856 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1962] milliseconds
+08-May-2025 19:49:00.122 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2025 19:49:00.122 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+08-May-2025 19:49:00.309 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+08-May-2025 19:49:00.544 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+08-May-2025 19:49:01.293 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [984] ms
+08-May-2025 19:49:01.293 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+08-May-2025 19:49:04.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [2,876] ms
+08-May-2025 19:49:04.184 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+08-May-2025 19:49:04.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [78] ms
+08-May-2025 19:49:04.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+08-May-2025 19:49:04.341 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [79] ms
+08-May-2025 19:49:04.341 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+08-May-2025 19:49:04.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [30] ms
+08-May-2025 19:49:04.387 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+08-May-2025 19:49:04.480 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [109] ms
+08-May-2025 19:49:04.480 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+08-May-2025 19:49:04.559 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [79] ms
+08-May-2025 19:49:04.575 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:49:04.606 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4760] milliseconds
+08-May-2025 19:50:40.027 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:50:40.058 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2025 19:50:40.323 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:50:40.355 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:50:42.027 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+08-May-2025 19:50:42.120 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+08-May-2025 19:50:42.542 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:50:42.573 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [781] milliseconds
+08-May-2025 19:50:42.667 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2025 19:50:42.667 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+08-May-2025 19:50:42.729 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+08-May-2025 19:50:42.823 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+08-May-2025 19:50:43.245 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [516] ms
+08-May-2025 19:50:43.245 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+08-May-2025 19:50:43.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [407] ms
+08-May-2025 19:50:43.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+08-May-2025 19:50:43.714 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [47] ms
+08-May-2025 19:50:43.714 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+08-May-2025 19:50:43.761 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [47] ms
+08-May-2025 19:50:43.761 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+08-May-2025 19:50:43.777 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [16] ms
+08-May-2025 19:50:43.777 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+08-May-2025 19:50:43.839 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [62] ms
+08-May-2025 19:50:43.839 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+08-May-2025 19:50:43.870 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [31] ms
+08-May-2025 19:50:43.886 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:50:43.917 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1343] milliseconds
+08-May-2025 19:51:50.143 FINE [http-nio-9090-exec-6] org.apache.catalina.realm.MemoryRealm.authenticate Username [jfryer] NOT successfully authenticated
+08-May-2025 19:55:16.007 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:55:16.055 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2025 19:55:16.288 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:55:16.304 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:55:18.429 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
+08-May-2025 19:55:18.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+08-May-2025 19:55:18.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+08-May-2025 19:55:18.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+08-May-2025 19:55:18.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+08-May-2025 19:55:18.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-May-2025 19:55:18.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2025 19:55:18.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+08-May-2025 19:55:18.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+08-May-2025 19:55:18.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+08-May-2025 19:55:18.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 19:55:18.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 19:55:18.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 19:55:18.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 19:55:18.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+08-May-2025 19:55:18.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2025 19:55:18.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+08-May-2025 19:55:18.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2025 19:55:18.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2025 19:55:18.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2025 19:55:18.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+08-May-2025 19:55:18.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+08-May-2025 19:55:18.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+08-May-2025 19:55:18.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+08-May-2025 19:55:18.523 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+08-May-2025 19:55:18.929 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:55:18.976 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [851] milliseconds
+08-May-2025 19:55:19.038 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2025 19:55:19.038 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+08-May-2025 19:55:19.132 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+08-May-2025 19:55:19.226 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+08-May-2025 19:55:19.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [531] ms
+08-May-2025 19:55:19.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+08-May-2025 19:55:20.070 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [407] ms
+08-May-2025 19:55:20.070 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+08-May-2025 19:55:20.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [31] ms
+08-May-2025 19:55:20.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+08-May-2025 19:55:20.147 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [46] ms
+08-May-2025 19:55:20.147 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+08-May-2025 19:55:20.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [16] ms
+08-May-2025 19:55:20.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+08-May-2025 19:55:20.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [47] ms
+08-May-2025 19:55:20.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+08-May-2025 19:55:20.257 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [47] ms
+08-May-2025 19:55:20.257 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:55:20.304 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1328] milliseconds
+08-May-2025 19:55:37.813 FINE [http-nio-9090-exec-6] org.apache.catalina.realm.MemoryRealm.authenticate Username [jfryer] NOT successfully authenticated
+08-May-2025 19:57:17.756 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:57:17.787 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2025 19:57:17.990 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:57:18.022 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:57:19.912 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.JNDIRealm] realm, making a total of [1] realms
+08-May-2025 19:57:19.912 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [2] realms
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+08-May-2025 19:57:19.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+08-May-2025 19:57:20.006 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+08-May-2025 19:57:20.380 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:57:20.412 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [790] milliseconds
+08-May-2025 19:57:20.490 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2025 19:57:20.490 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+08-May-2025 19:57:20.537 SEVERE [main] org.apache.catalina.realm.JNDIRealm.startInternal Exception opening directory server connection
+	javax.naming.AuthenticationException: [LDAP: error code 49 - INVALID_CREDENTIALS: Bind failed: ERR_229 Cannot authenticate user ]
+		at java.naming/com.sun.jndi.ldap.LdapCtx.mapErrorCode(LdapCtx.java:3259)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.processReturnCode(LdapCtx.java:3205)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.processReturnCode(LdapCtx.java:2991)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2905)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:266)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:226)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:284)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:185)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:115)
+		at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:730)
+		at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+		at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+		at java.naming/javax.naming.InitialContext.<init>(InitialContext.java:208)
+		at java.naming/javax.naming.directory.InitialDirContext.<init>(InitialDirContext.java:101)
+		at org.apache.catalina.realm.JNDIRealm.createDirContext(JNDIRealm.java:2549)
+		at org.apache.catalina.realm.JNDIRealm.open(JNDIRealm.java:2519)
+		at org.apache.catalina.realm.JNDIRealm.get(JNDIRealm.java:2474)
+		at org.apache.catalina.realm.JNDIRealm.startInternal(JNDIRealm.java:2726)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:195)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:101)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:742)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-May-2025 19:57:20.553 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+08-May-2025 19:57:20.631 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+08-May-2025 19:57:21.052 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [484] ms
+08-May-2025 19:57:21.052 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+08-May-2025 19:57:21.411 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [359] ms
+08-May-2025 19:57:21.411 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+08-May-2025 19:57:21.458 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [47] ms
+08-May-2025 19:57:21.458 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+08-May-2025 19:57:21.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [32] ms
+08-May-2025 19:57:21.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+08-May-2025 19:57:21.521 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [31] ms
+08-May-2025 19:57:21.521 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+08-May-2025 19:57:21.568 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [47] ms
+08-May-2025 19:57:21.568 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+08-May-2025 19:57:21.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [31] ms
+08-May-2025 19:57:21.615 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+08-May-2025 19:57:21.662 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1246] milliseconds
+08-May-2025 19:57:35.232 FINE [http-nio-9090-exec-6] org.apache.catalina.realm.MemoryRealm.authenticate Username [jfryer] NOT successfully authenticated
+08-May-2025 19:57:44.560 FINE [http-nio-9090-exec-7] org.apache.catalina.realm.MemoryRealm.authenticate Username [jfryer] NOT successfully authenticated
+08-May-2025 20:06:38.295 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+08-May-2025 20:06:38.342 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2025 20:06:38.514 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+08-May-2025 20:06:38.530 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+08-May-2025 20:06:40.451 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.JNDIRealm] realm, making a total of [1] realms
+08-May-2025 20:06:40.467 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [2] realms
+08-May-2025 20:06:40.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+08-May-2025 20:06:40.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+08-May-2025 20:06:40.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+08-May-2025 20:06:40.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+08-May-2025 20:06:40.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+08-May-2025 20:06:40.545 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+08-May-2025 20:06:40.975 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+08-May-2025 20:06:41.030 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [848] milliseconds
+08-May-2025 20:06:41.115 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2025 20:06:41.115 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+08-May-2025 20:06:41.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+08-May-2025 20:06:41.373 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+08-May-2025 20:06:41.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [554] ms
+08-May-2025 20:06:41.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+08-May-2025 20:06:42.202 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [437] ms
+08-May-2025 20:06:42.202 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+08-May-2025 20:06:42.252 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [50] ms
+08-May-2025 20:06:42.252 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+08-May-2025 20:06:42.288 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [36] ms
+08-May-2025 20:06:42.288 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+08-May-2025 20:06:42.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [30] ms
+08-May-2025 20:06:42.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+08-May-2025 20:06:42.368 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [50] ms
+08-May-2025 20:06:42.368 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+08-May-2025 20:06:42.404 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [36] ms
+08-May-2025 20:06:42.420 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+08-May-2025 20:06:42.521 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1488] milliseconds
+08-May-2025 20:07:04.951 FINE [http-nio-9090-exec-6] org.apache.catalina.realm.MemoryRealm.authenticate Username [jfryer] NOT successfully authenticated
+08-May-2025 20:09:22.729 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Task4]
+08-May-2025 20:09:22.823 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+08-May-2025 20:09:22.916 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [93] ms
+08-May-2025 20:18:52.167 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+08-May-2025 20:18:52.183 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2025 20:18:52.215 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+08-May-2025 20:18:52.230 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+08-May-2025 20:18:54.025 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.JNDIRealm] realm, making a total of [1] realms
+08-May-2025 20:18:54.032 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [2] realms
+08-May-2025 20:18:54.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+08-May-2025 20:18:54.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+08-May-2025 20:18:54.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+08-May-2025 20:18:54.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+08-May-2025 20:18:54.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-May-2025 20:18:54.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2025 20:18:54.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+08-May-2025 20:18:54.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+08-May-2025 20:18:54.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+08-May-2025 20:18:54.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 20:18:54.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 20:18:54.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 20:18:54.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+08-May-2025 20:18:54.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+08-May-2025 20:18:54.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2025 20:18:54.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+08-May-2025 20:18:54.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2025 20:18:54.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2025 20:18:54.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2025 20:18:54.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+08-May-2025 20:18:54.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+08-May-2025 20:18:54.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+08-May-2025 20:18:54.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+08-May-2025 20:18:54.077 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+08-May-2025 20:18:54.351 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+08-May-2025 20:18:54.386 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [583] milliseconds
+08-May-2025 20:18:54.446 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2025 20:18:54.446 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+08-May-2025 20:18:54.487 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+08-May-2025 20:18:54.551 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+08-May-2025 20:18:54.824 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [338] ms
+08-May-2025 20:18:54.824 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+08-May-2025 20:18:55.089 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [265] ms
+08-May-2025 20:18:55.089 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+08-May-2025 20:18:55.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [32] ms
+08-May-2025 20:18:55.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+08-May-2025 20:18:55.152 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [31] ms
+08-May-2025 20:18:55.152 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+08-May-2025 20:18:55.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [16] ms
+08-May-2025 20:18:55.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+08-May-2025 20:18:55.199 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [31] ms
+08-May-2025 20:18:55.199 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+08-May-2025 20:18:55.246 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [47] ms
+08-May-2025 20:18:55.246 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+08-May-2025 20:18:55.293 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [907] milliseconds
+08-May-2025 20:42:07.468 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Task4]
+08-May-2025 20:42:07.492 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+08-May-2025 20:42:07.518 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [26] ms
+08-May-2025 20:42:16.596 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+08-May-2025 20:42:16.596 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2025 20:42:16.628 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+08-May-2025 20:42:16.644 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]

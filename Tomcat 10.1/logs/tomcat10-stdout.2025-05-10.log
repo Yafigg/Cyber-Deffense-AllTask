@@ -1,0 +1,16 @@
+Attempting authentication with DN: cn=John Fryer,ou=people,o=SevenSeas
+LDAP Authentication failed: localhost:10389
+Attempting authentication with DN: cn=John Fryer,ou=people,o=SevenSeas
+LDAP Authentication failed: localhost:10389
+Attempting authentication with DN: cn=John Fryer,ou=people,o=SevenSeas
+LDAP Authentication successful for user: John Fryer
+Attempting authentication with DN: cn=John Fryer,ou=people,o=SevenSeas
+LDAP Authentication successful for user: John Fryer
+Attempting authentication with DN: cn=John Fryer,ou=people,o=SevenSeas
+LDAP Authentication successful for user: John Fryer
+Attempting authentication with DN: cn=William Bligh,ou=people,o=SevenSeas
+LDAP Authentication successful for user: William Bligh
+Attempting authentication with DN: cn=Danu,ou=people,o=SevenSeas
+LDAP Authentication failed: [LDAP: error code 49 - INVALID_CREDENTIALS: Bind failed: Attempt to lookup non-existant entry: cn=Danu,ou=people,o=SevenSeas]
+Attempting authentication with DN: cn=Thomas Quist,ou=people,o=SevenSeas
+LDAP Authentication successful for user: Thomas Quist

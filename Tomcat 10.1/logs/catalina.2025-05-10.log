@@ -1,0 +1,639 @@
+10-May-2025 11:32:59.980 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
+10-May-2025 11:33:00.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+10-May-2025 11:33:00.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+10-May-2025 11:33:00.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+10-May-2025 11:33:00.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+10-May-2025 11:33:00.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-May-2025 11:33:00.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-May-2025 11:33:00.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+10-May-2025 11:33:00.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+10-May-2025 11:33:00.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+10-May-2025 11:33:00.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 11:33:00.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 11:33:00.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 11:33:00.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 11:33:00.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+10-May-2025 11:33:00.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-May-2025 11:33:00.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+10-May-2025 11:33:00.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-May-2025 11:33:00.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-May-2025 11:33:00.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-May-2025 11:33:00.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+10-May-2025 11:33:00.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+10-May-2025 11:33:00.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+10-May-2025 11:33:00.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+10-May-2025 11:33:00.074 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+10-May-2025 11:33:00.324 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-May-2025 11:33:00.355 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 11:33:00.793 INFO [main] org.apache.tomcat.util.net.AbstractEndpoint.logCertificate Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [RSA] configured from keystore [C:/Program Files/Apache Software Foundation/Tomcat 10.1/conf/keystore.jks] using alias [tomcat] with trust store [null]
+10-May-2025 11:33:00.808 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1075] milliseconds
+10-May-2025 11:33:00.887 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-May-2025 11:33:00.887 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+10-May-2025 11:33:00.887 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+10-May-2025 11:33:00.993 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+10-May-2025 11:33:01.162 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:33:01.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [372] ms
+10-May-2025 11:33:01.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+10-May-2025 11:33:02.555 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:33:02.682 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [1,422] ms
+10-May-2025 11:33:02.683 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+10-May-2025 11:33:02.737 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:33:02.746 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [62] ms
+10-May-2025 11:33:02.746 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+10-May-2025 11:33:02.777 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:33:02.777 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [31] ms
+10-May-2025 11:33:02.777 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+10-May-2025 11:33:02.809 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:33:02.809 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [32] ms
+10-May-2025 11:33:02.809 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+10-May-2025 11:33:02.855 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:33:02.871 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [62] ms
+10-May-2025 11:33:02.871 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+10-May-2025 11:33:02.898 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Realm] failed to set property [debug] to [99]
+10-May-2025 11:33:03.511 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:33:03.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [640] ms
+10-May-2025 11:33:03.527 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-May-2025 11:33:03.542 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 11:33:03.542 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2732] milliseconds
+10-May-2025 11:33:09.129 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /
+10-May-2025 11:33:09.134 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 11:33:09.137 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\jaspic-providers.xml]
+10-May-2025 11:33:09.150 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 11:33:30.121 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-May-2025 11:33:30.121 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 11:33:30.139 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-May-2025 11:33:30.168 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-May-2025 11:33:30.183 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 11:33:30.199 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-May-2025 11:33:30.199 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 11:33:31.808 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+10-May-2025 11:33:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+10-May-2025 11:33:31.839 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+10-May-2025 11:33:32.043 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-May-2025 11:33:32.058 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 11:33:32.246 INFO [main] org.apache.tomcat.util.net.AbstractEndpoint.logCertificate Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [RSA] configured from keystore [C:/Program Files/Apache Software Foundation/Tomcat 10.1/conf/keystore.jks] using alias [tomcat] with trust store [null]
+10-May-2025 11:33:32.262 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [598] milliseconds
+10-May-2025 11:33:32.292 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-May-2025 11:33:32.292 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+10-May-2025 11:33:32.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+10-May-2025 11:33:32.355 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+10-May-2025 11:33:32.464 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:33:32.543 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [235] ms
+10-May-2025 11:33:32.543 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+10-May-2025 11:33:32.683 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:33:32.761 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [218] ms
+10-May-2025 11:33:32.761 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+10-May-2025 11:33:32.793 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:33:32.809 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [48] ms
+10-May-2025 11:33:32.809 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+10-May-2025 11:33:32.824 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:33:32.824 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [15] ms
+10-May-2025 11:33:32.824 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+10-May-2025 11:33:32.839 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:33:32.839 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [15] ms
+10-May-2025 11:33:32.839 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+10-May-2025 11:33:32.855 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:33:32.871 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [32] ms
+10-May-2025 11:33:32.871 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+10-May-2025 11:33:32.871 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Realm] failed to set property [debug] to [99]
+10-May-2025 11:33:33.433 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:33:33.433 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [562] ms
+10-May-2025 11:33:33.433 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-May-2025 11:33:33.449 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 11:33:33.449 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1195] milliseconds
+10-May-2025 11:33:38.558 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /
+10-May-2025 11:33:38.560 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 11:33:38.565 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\jaspic-providers.xml]
+10-May-2025 11:33:38.567 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 11:49:25.843 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-May-2025 11:49:25.859 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 11:49:25.868 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-May-2025 11:49:25.890 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-May-2025 11:49:25.905 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 11:49:25.921 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-May-2025 11:49:25.921 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 11:49:27.562 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+10-May-2025 11:49:27.593 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+10-May-2025 11:49:27.796 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-May-2025 11:49:27.812 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 11:49:28.015 INFO [main] org.apache.tomcat.util.net.AbstractEndpoint.logCertificate Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [RSA] configured from keystore [C:/Program Files/Apache Software Foundation/Tomcat 10.1/conf/keystore.jks] using alias [tomcat] with trust store [null]
+10-May-2025 11:49:28.015 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [594] milliseconds
+10-May-2025 11:49:28.046 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-May-2025 11:49:28.046 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+10-May-2025 11:49:28.062 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+10-May-2025 11:49:28.108 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+10-May-2025 11:49:28.202 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:49:28.265 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [203] ms
+10-May-2025 11:49:28.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+10-May-2025 11:49:28.436 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:49:28.515 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [250] ms
+10-May-2025 11:49:28.515 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+10-May-2025 11:49:28.546 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:49:28.562 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [47] ms
+10-May-2025 11:49:28.562 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+10-May-2025 11:49:28.577 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:49:28.593 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [31] ms
+10-May-2025 11:49:28.593 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+10-May-2025 11:49:28.593 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:49:28.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [16] ms
+10-May-2025 11:49:28.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+10-May-2025 11:49:28.624 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:49:28.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [15] ms
+10-May-2025 11:49:28.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+10-May-2025 11:49:28.640 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Realm] failed to set property [debug] to [99]
+10-May-2025 11:49:29.218 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 11:49:29.218 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [594] ms
+10-May-2025 11:49:29.218 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-May-2025 11:49:29.233 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 11:49:29.233 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1223] milliseconds
+10-May-2025 11:49:42.720 FINER [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /
+10-May-2025 11:49:42.722 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 11:49:42.727 FINE [http-nio-8080-exec-7] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\jaspic-providers.xml]
+10-May-2025 11:49:42.730 FINER [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 11:49:42.877 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /tomcat.css
+10-May-2025 11:49:42.878 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 11:49:42.878 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 11:49:42.879 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /tomcat.svg
+10-May-2025 11:49:42.880 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 11:49:42.880 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 11:49:42.917 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /bg-upper.png
+10-May-2025 11:49:42.917 FINER [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /asf-logo-wide.svg
+10-May-2025 11:49:42.917 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 11:49:42.918 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 11:49:42.918 FINER [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 11:49:42.918 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /bg-nav.png
+10-May-2025 11:49:42.918 FINER [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /bg-button.png
+10-May-2025 11:49:42.918 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 11:49:42.918 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 11:49:42.919 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /bg-middle.png
+10-May-2025 11:49:42.919 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 11:49:42.920 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 11:49:42.920 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 11:49:42.920 FINER [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 11:49:42.920 FINER [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 11:49:42.979 FINER [http-nio-8080-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+10-May-2025 11:49:42.980 FINER [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 11:49:42.980 FINER [http-nio-8080-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:16:43.736 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-May-2025 12:16:43.737 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-May-2025 12:16:43.746 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 12:16:43.753 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-May-2025 12:16:43.774 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-May-2025 12:16:43.782 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 12:16:43.788 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-May-2025 12:16:43.789 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 12:16:58.292 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
+10-May-2025 12:16:58.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+10-May-2025 12:16:58.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+10-May-2025 12:16:58.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+10-May-2025 12:16:58.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+10-May-2025 12:16:58.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-May-2025 12:16:58.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-May-2025 12:16:58.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+10-May-2025 12:16:58.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+10-May-2025 12:16:58.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+10-May-2025 12:16:58.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 12:16:58.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 12:16:58.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+10-May-2025 12:16:58.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-May-2025 12:16:58.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-May-2025 12:16:58.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-May-2025 12:16:58.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+10-May-2025 12:16:58.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-May-2025 12:16:58.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+10-May-2025 12:16:58.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-May-2025 12:16:58.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-May-2025 12:16:58.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-May-2025 12:16:58.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-May-2025 12:16:58.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 12:16:58.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 12:16:58.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+10-May-2025 12:16:58.335 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;.]
+10-May-2025 12:16:58.549 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-May-2025 12:16:58.570 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 12:16:58.783 INFO [main] org.apache.tomcat.util.net.AbstractEndpoint.logCertificate Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [RSA] configured from keystore [C:/Program Files/Apache Software Foundation/Tomcat 10.1/conf/keystore.jks] using alias [tomcat] with trust store [null]
+10-May-2025 12:16:58.791 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [654] milliseconds
+10-May-2025 12:16:58.835 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-May-2025 12:16:58.836 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+10-May-2025 12:16:58.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+10-May-2025 12:16:59.040 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:16:59.127 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [278] ms
+10-May-2025 12:16:59.127 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+10-May-2025 12:16:59.338 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:16:59.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [321] ms
+10-May-2025 12:16:59.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+10-May-2025 12:16:59.479 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:16:59.479 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [31] ms
+10-May-2025 12:16:59.479 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+10-May-2025 12:16:59.511 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:16:59.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [32] ms
+10-May-2025 12:16:59.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+10-May-2025 12:16:59.526 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:16:59.526 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [15] ms
+10-May-2025 12:16:59.526 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+10-May-2025 12:16:59.558 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:16:59.573 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [47] ms
+10-May-2025 12:16:59.573 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+10-May-2025 12:16:59.573 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Realm] failed to set property [debug] to [99]
+10-May-2025 12:16:59.635 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:16:59.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [78] ms
+10-May-2025 12:16:59.651 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-May-2025 12:16:59.667 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 12:16:59.667 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [879] milliseconds
+10-May-2025 12:17:58.911 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/
+10-May-2025 12:17:58.918 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /index.jsp --> false
+10-May-2025 12:17:58.919 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /index.jsp --> false
+10-May-2025 12:17:58.920 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /index.jsp --> false
+10-May-2025 12:17:58.920 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /index.jsp --> false
+10-May-2025 12:17:58.920 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+10-May-2025 12:17:58.929 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\jaspic-providers.xml]
+10-May-2025 12:17:58.934 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:18:01.157 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/customlogin.jsp
+10-May-2025 12:18:01.157 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /customlogin.jsp --> false
+10-May-2025 12:18:01.157 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /customlogin.jsp --> false
+10-May-2025 12:18:01.158 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /customlogin.jsp --> false
+10-May-2025 12:18:01.158 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /customlogin.jsp --> false
+10-May-2025 12:18:01.158 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+10-May-2025 12:18:01.159 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:18:02.185 FINER [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/ldapLogin
+10-May-2025 12:18:02.185 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:18:02.185 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:18:02.185 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:18:02.186 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:18:02.186 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+10-May-2025 12:18:02.186 FINER [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:18:02.198 FINER [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/secure/index.jsp
+10-May-2025 12:18:02.198 FINER [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /secure/index.jsp --> true
+10-May-2025 12:18:02.199 FINER [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /secure/index.jsp --> true
+10-May-2025 12:18:02.199 FINER [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+10-May-2025 12:18:02.200 FINER [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+10-May-2025 12:18:02.200 FINER [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+10-May-2025 12:18:02.200 FINER [http-nio-8080-exec-8] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session 'BC966F0397ED3617C6D318AA8784D9E1'
+10-May-2025 12:18:02.203 FINE [http-nio-8080-exec-8] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/Task4/secure/index.jsp] made with method [GET] to login page [/login.jsp] of context [/Task4] using request method GET
+10-May-2025 12:18:02.204 FINE [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.changeSessionID Session ID changed on authentication from [BC966F0397ED3617C6D318AA8784D9E1] to [FEACDBF848AE97AECFE4092C1854B938]
+10-May-2025 12:18:02.204 FINE [http-nio-8080-exec-8] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Session ID changed before forwarding to login page during FORM authentication from [BC966F0397ED3617C6D318AA8784D9E1] to [FEACDBF848AE97AECFE4092C1854B938]
+10-May-2025 12:18:02.220 FINE [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
+10-May-2025 12:18:06.638 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/secure/j_security_check
+10-May-2025 12:18:06.638 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /secure/j_security_check --> true
+10-May-2025 12:18:06.638 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /secure/j_security_check --> true
+10-May-2025 12:18:06.639 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+10-May-2025 12:18:06.639 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+10-May-2025 12:18:06.639 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+10-May-2025 12:18:06.640 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Authenticating username 'John Fryer'
+10-May-2025 12:18:06.653 FINE [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
+10-May-2025 12:18:14.723 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/ldapLogin
+10-May-2025 12:18:14.724 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:18:14.724 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:18:14.724 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:18:14.725 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:18:14.725 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+10-May-2025 12:18:14.726 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:18:14.733 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/secure/index.jsp
+10-May-2025 12:18:14.733 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /secure/index.jsp --> true
+10-May-2025 12:18:14.734 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /secure/index.jsp --> true
+10-May-2025 12:18:14.734 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+10-May-2025 12:18:14.734 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+10-May-2025 12:18:14.734 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+10-May-2025 12:18:14.735 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session 'FEACDBF848AE97AECFE4092C1854B938'
+10-May-2025 12:18:14.735 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/Task4/secure/index.jsp] made with method [GET] to login page [/login.jsp] of context [/Task4] using request method GET
+10-May-2025 12:18:14.735 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.changeSessionID Session ID changed on authentication from [FEACDBF848AE97AECFE4092C1854B938] to [052309E3EC1EE3742AB7666A79919A4C]
+10-May-2025 12:18:14.735 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Session ID changed before forwarding to login page during FORM authentication from [FEACDBF848AE97AECFE4092C1854B938] to [052309E3EC1EE3742AB7666A79919A4C]
+10-May-2025 12:18:14.737 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
+10-May-2025 12:19:09.377 FINER [http-nio-8080-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/ldapLogin
+10-May-2025 12:19:09.378 FINER [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:19:09.378 FINER [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:19:09.378 FINER [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:19:09.378 FINER [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:19:09.379 FINER [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+10-May-2025 12:19:09.379 FINER [http-nio-8080-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:19:09.389 FINER [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/secure/index.jsp
+10-May-2025 12:19:09.389 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /secure/index.jsp --> true
+10-May-2025 12:19:09.389 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /secure/index.jsp --> true
+10-May-2025 12:19:09.389 FINER [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+10-May-2025 12:19:09.389 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+10-May-2025 12:19:09.390 FINER [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+10-May-2025 12:19:09.390 FINER [http-nio-8080-exec-7] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session '052309E3EC1EE3742AB7666A79919A4C'
+10-May-2025 12:19:09.391 FINE [http-nio-8080-exec-7] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/Task4/secure/index.jsp] made with method [GET] to login page [/login.jsp] of context [/Task4] using request method GET
+10-May-2025 12:19:09.391 FINE [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.changeSessionID Session ID changed on authentication from [052309E3EC1EE3742AB7666A79919A4C] to [FDBA50B74DCABD3BC666309C34E89910]
+10-May-2025 12:19:09.391 FINE [http-nio-8080-exec-7] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Session ID changed before forwarding to login page during FORM authentication from [052309E3EC1EE3742AB7666A79919A4C] to [FDBA50B74DCABD3BC666309C34E89910]
+10-May-2025 12:19:09.393 FINE [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
+10-May-2025 12:20:07.896 FINER [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/ldapLogin
+10-May-2025 12:20:07.896 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:20:07.897 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:20:07.897 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:20:07.897 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:20:07.898 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+10-May-2025 12:20:07.898 FINER [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:20:07.908 FINER [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/secure/index.jsp
+10-May-2025 12:20:07.908 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /secure/index.jsp --> true
+10-May-2025 12:20:07.908 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /secure/index.jsp --> true
+10-May-2025 12:20:07.908 FINER [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+10-May-2025 12:20:07.909 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+10-May-2025 12:20:07.909 FINER [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+10-May-2025 12:20:07.909 FINER [http-nio-8080-exec-10] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session 'FDBA50B74DCABD3BC666309C34E89910'
+10-May-2025 12:20:07.910 FINE [http-nio-8080-exec-10] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/Task4/secure/index.jsp] made with method [GET] to login page [/login.jsp] of context [/Task4] using request method GET
+10-May-2025 12:20:07.910 FINE [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.changeSessionID Session ID changed on authentication from [FDBA50B74DCABD3BC666309C34E89910] to [37205060C71CB52326502C1582D0E8BD]
+10-May-2025 12:20:07.911 FINE [http-nio-8080-exec-10] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Session ID changed before forwarding to login page during FORM authentication from [FDBA50B74DCABD3BC666309C34E89910] to [37205060C71CB52326502C1582D0E8BD]
+10-May-2025 12:20:07.912 FINE [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
+10-May-2025 12:20:50.253 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/ldapLogin
+10-May-2025 12:20:50.253 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:20:50.254 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:20:50.254 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:20:50.254 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:20:50.254 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+10-May-2025 12:20:50.254 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:20:50.261 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/secure/index.jsp
+10-May-2025 12:20:50.262 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /secure/index.jsp --> true
+10-May-2025 12:20:50.262 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /secure/index.jsp --> true
+10-May-2025 12:20:50.262 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+10-May-2025 12:20:50.262 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+10-May-2025 12:20:50.262 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+10-May-2025 12:20:50.262 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session '37205060C71CB52326502C1582D0E8BD'
+10-May-2025 12:20:50.263 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/Task4/secure/index.jsp] made with method [GET] to login page [/login.jsp] of context [/Task4] using request method GET
+10-May-2025 12:20:50.263 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.changeSessionID Session ID changed on authentication from [37205060C71CB52326502C1582D0E8BD] to [322C1AC0867A2B7A44FE59D69C9677AB]
+10-May-2025 12:20:50.263 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Session ID changed before forwarding to login page during FORM authentication from [37205060C71CB52326502C1582D0E8BD] to [322C1AC0867A2B7A44FE59D69C9677AB]
+10-May-2025 12:20:50.265 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
+10-May-2025 12:21:27.586 FINER [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/secure/j_security_check
+10-May-2025 12:21:27.586 FINER [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /secure/j_security_check --> true
+10-May-2025 12:21:27.587 FINER [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /secure/j_security_check --> true
+10-May-2025 12:21:27.588 FINER [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+10-May-2025 12:21:27.588 FINER [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+10-May-2025 12:21:27.588 FINER [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+10-May-2025 12:21:27.588 FINER [http-nio-8080-exec-8] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Authenticating username 'root'
+10-May-2025 12:21:27.595 FINE [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
+10-May-2025 12:21:41.398 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/ldapLogin
+10-May-2025 12:21:41.398 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:21:41.399 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:21:41.399 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:21:41.399 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /ldapLogin --> false
+10-May-2025 12:21:41.399 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+10-May-2025 12:21:41.399 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:21:41.406 FINER [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/secure/index.jsp
+10-May-2025 12:21:41.406 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /secure/index.jsp --> true
+10-May-2025 12:21:41.407 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against GET /secure/index.jsp --> true
+10-May-2025 12:21:41.407 FINER [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+10-May-2025 12:21:41.407 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+10-May-2025 12:21:41.407 FINER [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+10-May-2025 12:21:41.407 FINER [http-nio-8080-exec-6] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session '322C1AC0867A2B7A44FE59D69C9677AB'
+10-May-2025 12:21:41.408 FINE [http-nio-8080-exec-6] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/Task4/secure/index.jsp] made with method [GET] to login page [/login.jsp] of context [/Task4] using request method GET
+10-May-2025 12:21:41.408 FINE [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.changeSessionID Session ID changed on authentication from [322C1AC0867A2B7A44FE59D69C9677AB] to [FB2700B625283DCDEAD5E165259E981E]
+10-May-2025 12:21:41.408 FINE [http-nio-8080-exec-6] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Session ID changed before forwarding to login page during FORM authentication from [322C1AC0867A2B7A44FE59D69C9677AB] to [FB2700B625283DCDEAD5E165259E981E]
+10-May-2025 12:21:41.410 FINE [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
+10-May-2025 12:21:44.032 FINER [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/secure/j_security_check
+10-May-2025 12:21:44.032 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /secure/j_security_check --> true
+10-May-2025 12:21:44.033 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Protected Resources]' against POST /secure/j_security_check --> true
+10-May-2025 12:21:44.033 FINER [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+10-May-2025 12:21:44.033 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+10-May-2025 12:21:44.033 FINER [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+10-May-2025 12:21:44.034 FINER [http-nio-8080-exec-10] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Authenticating username 'John Fryer'
+10-May-2025 12:21:44.037 FINE [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
+10-May-2025 12:25:22.592 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
+10-May-2025 12:25:22.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+10-May-2025 12:25:22.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+10-May-2025 12:25:22.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+10-May-2025 12:25:22.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+10-May-2025 12:25:22.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-May-2025 12:25:22.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-May-2025 12:25:22.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+10-May-2025 12:25:22.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+10-May-2025 12:25:22.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+10-May-2025 12:25:22.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 12:25:22.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 12:25:22.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 12:25:22.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 12:25:22.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+10-May-2025 12:25:22.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-May-2025 12:25:22.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+10-May-2025 12:25:22.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-May-2025 12:25:22.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-May-2025 12:25:22.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-May-2025 12:25:22.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+10-May-2025 12:25:22.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+10-May-2025 12:25:22.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+10-May-2025 12:25:22.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+10-May-2025 12:25:22.687 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+10-May-2025 12:25:22.954 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-May-2025 12:25:23.001 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 12:25:23.456 INFO [main] org.apache.tomcat.util.net.AbstractEndpoint.logCertificate Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [RSA] configured from keystore [C:/Program Files/Apache Software Foundation/Tomcat 10.1/conf/keystore.jks] using alias [tomcat] with trust store [null]
+10-May-2025 12:25:23.472 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1110] milliseconds
+10-May-2025 12:25:23.535 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-May-2025 12:25:23.535 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+10-May-2025 12:25:23.550 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+10-May-2025 12:25:23.642 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+10-May-2025 12:25:23.810 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:25:23.904 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [353] ms
+10-May-2025 12:25:23.905 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+10-May-2025 12:25:25.101 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:25:25.209 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [1,304] ms
+10-May-2025 12:25:25.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+10-May-2025 12:25:25.252 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:25:25.259 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [49] ms
+10-May-2025 12:25:25.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+10-May-2025 12:25:25.295 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:25:25.301 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [41] ms
+10-May-2025 12:25:25.301 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+10-May-2025 12:25:25.322 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:25:25.328 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [27] ms
+10-May-2025 12:25:25.328 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+10-May-2025 12:25:25.377 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:25:25.388 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [60] ms
+10-May-2025 12:25:25.389 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+10-May-2025 12:25:25.405 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Realm] failed to set property [debug] to [99]
+10-May-2025 12:25:26.004 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:25:26.019 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [630] ms
+10-May-2025 12:25:26.023 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-May-2025 12:25:26.043 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 12:25:26.044 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2557] milliseconds
+10-May-2025 12:25:52.002 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/
+10-May-2025 12:25:52.004 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:25:52.011 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\jaspic-providers.xml]
+10-May-2025 12:25:52.030 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:25:54.477 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/customlogin.jsp
+10-May-2025 12:25:54.478 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:25:54.478 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:25:56.038 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/ldapLogin
+10-May-2025 12:25:56.038 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:25:56.038 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:26:50.123 FINER [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/ldapLogin
+10-May-2025 12:26:50.123 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:26:50.123 FINER [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:29:10.315 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-May-2025 12:29:10.326 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 12:29:10.332 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-May-2025 12:29:10.349 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-May-2025 12:29:10.361 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 12:29:10.372 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-May-2025 12:29:10.372 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 12:29:11.580 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.40
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 1 2025 17:20:53 UTC
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.40.0
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2016
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\BellSoft\LibericaJDK-11
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+10-LTS
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            BellSoft
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+10-May-2025 12:29:11.603 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+10-May-2025 12:29:11.753 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-May-2025 12:29:11.764 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 12:29:11.913 INFO [main] org.apache.tomcat.util.net.AbstractEndpoint.logCertificate Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [RSA] configured from keystore [C:/Program Files/Apache Software Foundation/Tomcat 10.1/conf/keystore.jks] using alias [tomcat] with trust store [null]
+10-May-2025 12:29:11.913 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [596] milliseconds
+10-May-2025 12:29:11.948 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-May-2025 12:29:11.948 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+10-May-2025 12:29:11.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+10-May-2025 12:29:11.982 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] which is part of the web application [/docs]
+10-May-2025 12:29:12.063 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:29:12.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [161] ms
+10-May-2025 12:29:12.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+10-May-2025 12:29:12.236 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:29:12.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [196] ms
+10-May-2025 12:29:12.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+10-May-2025 12:29:12.316 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:29:12.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [11] ms
+10-May-2025 12:29:12.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+10-May-2025 12:29:12.328 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:29:12.339 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [23] ms
+10-May-2025 12:29:12.339 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+10-May-2025 12:29:12.351 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:29:12.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [12] ms
+10-May-2025 12:29:12.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample]
+10-May-2025 12:29:12.362 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:29:12.362 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\sample] has finished in [11] ms
+10-May-2025 12:29:12.362 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4]
+10-May-2025 12:29:12.374 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Realm] failed to set property [debug] to [99]
+10-May-2025 12:29:12.408 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+10-May-2025 12:29:12.408 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Task4] has finished in [46] ms
+10-May-2025 12:29:12.419 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-May-2025 12:29:12.419 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 12:29:12.419 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [688] milliseconds
+10-May-2025 12:29:14.920 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/ldapLogin
+10-May-2025 12:29:14.921 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:29:14.924 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\jaspic-providers.xml]
+10-May-2025 12:29:14.927 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:29:14.948 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/secure/index.jsp
+10-May-2025 12:29:14.949 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:29:14.949 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:29:18.470 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/
+10-May-2025 12:29:18.470 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:29:18.470 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:29:19.274 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/customlogin.jsp
+10-May-2025 12:29:19.274 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:29:19.274 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:29:19.926 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/ldapLogin
+10-May-2025 12:29:19.926 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:29:19.927 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:29:19.931 FINER [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/secure/index.jsp
+10-May-2025 12:29:19.931 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:29:19.932 FINER [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:29:21.263 FINER [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/
+10-May-2025 12:29:21.264 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:29:21.264 FINER [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:29:22.401 FINER [http-nio-8080-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/secure/index.jsp
+10-May-2025 12:29:22.401 FINER [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:29:22.401 FINER [http-nio-8080-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:29:24.836 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/
+10-May-2025 12:29:24.836 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:29:24.836 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:29:25.379 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/customlogin.jsp
+10-May-2025 12:29:25.380 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:29:25.380 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:29:26.143 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/ldapLogin
+10-May-2025 12:29:26.143 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:29:26.143 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:29:26.149 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/secure/index.jsp
+10-May-2025 12:29:26.149 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:29:26.149 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:31:13.579 FINER [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/
+10-May-2025 12:31:13.579 FINER [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:31:13.579 FINER [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:31:14.447 FINER [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/customlogin.jsp
+10-May-2025 12:31:14.447 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:31:14.447 FINER [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:31:25.985 FINER [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/ldapLogin
+10-May-2025 12:31:25.985 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:31:25.985 FINER [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:31:25.992 FINER [http-nio-8080-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/secure/index.jsp
+10-May-2025 12:31:25.992 FINER [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:31:25.992 FINER [http-nio-8080-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:31:30.772 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/
+10-May-2025 12:31:30.772 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:31:30.772 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:31:31.501 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/customlogin.jsp
+10-May-2025 12:31:31.501 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:31:31.501 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:31:34.690 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/ldapLogin
+10-May-2025 12:31:34.690 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:31:34.690 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:32:25.238 FINER [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /Task4/ldapLogin
+10-May-2025 12:32:25.239 FINER [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:32:25.239 FINER [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:32:25.246 FINER [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /Task4/secure/index.jsp
+10-May-2025 12:32:25.246 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+10-May-2025 12:32:25.246 FINER [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+10-May-2025 12:33:13.459 INFO [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-May-2025 12:33:13.459 INFO [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 12:33:13.489 INFO [Thread-9] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-May-2025 12:33:13.527 INFO [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-May-2025 12:33:13.550 INFO [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-9443"]
+10-May-2025 12:33:13.573 INFO [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-May-2025 12:33:13.573 INFO [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-9443"]

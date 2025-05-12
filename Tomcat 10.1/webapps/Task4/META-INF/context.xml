@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- LDAP Realm Configuration -->
+    <Realm className="org.apache.catalina.realm.JNDIRealm"
+           debug="99"
+           connectionURL="ldap://localhost:10389"
+           connectionName="uid=admin,ou=system"
+           connectionPassword="secret"
+           
+           userPattern="cn={0},ou=people,o=SevenSeas"
+           
+           roleBase="ou=groups,o=SevenSeas"
+           roleName="cn"
+           roleSearch="(uniqueMember=cn={0},ou=people,o=SevenSeas)"
+           
+           userPassword="userPassword"
+           authentication="simple"
+           
+           userSearch="(cn={0})" 
+           userSubtree="true"
+           roleSubtree="true"
+           commonRole="user" />
+           
+    <!-- Extra Tomcat Configurations -->
+    <Parameter name="ldapDebug" value="true"/>
+    <Parameter name="ldapValidateOnBorrow" value="true"/>
+</Context>

@@ -1,0 +1,200 @@
+09-May-2025 10:42:19.103 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+09-May-2025 10:42:19.103 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+09-May-2025 10:42:19.105 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@14a54ef6')
+09-May-2025 10:52:11.753 INFO [Thread-6] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+09-May-2025 10:52:11.753 INFO [Thread-6] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+09-May-2025 10:52:14.628 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+09-May-2025 10:52:14.628 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+09-May-2025 10:52:14.628 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@55b62629')
+09-May-2025 11:04:23.967 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+09-May-2025 11:04:23.967 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+09-May-2025 11:04:26.469 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+09-May-2025 11:04:26.469 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+09-May-2025 11:04:26.471 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@14a54ef6')
+09-May-2025 11:09:05.846 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+09-May-2025 11:09:05.846 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+09-May-2025 11:14:01.066 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+09-May-2025 11:14:01.066 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+09-May-2025 11:14:01.066 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@51671b08')
+09-May-2025 11:14:01.175 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+09-May-2025 11:14:01.207 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+09-May-2025 11:14:01.207 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+09-May-2025 11:14:01.207 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 11:14:14.375 FINER [http-nio-9090-exec-3] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+09-May-2025 11:14:14.375 FINE [http-nio-9090-exec-3] org.apache.catalina.core.ApplicationDispatcher.doForward The response class [class org.apache.catalina.connector.Response] could not be unwraped to the Catalina response class and will be closed immediately after the forward
+09-May-2025 11:14:33.836 FINER [http-nio-9090-exec-6] org.apache.catalina.realm.JNDIRealm.getAttributeValue   retrieving attribute userPassword
+09-May-2025 11:14:33.837 FINER [http-nio-9090-exec-6] org.apache.catalina.realm.JNDIRealm.getUser Found user by pattern [org.apache.catalina.realm.JNDIRealm$User@53a864c6]
+09-May-2025 11:14:33.837 FINER [http-nio-9090-exec-6] org.apache.catalina.realm.JNDIRealm.compareCredentials   validating credentials
+09-May-2025 11:14:33.837 FINER [http-nio-9090-exec-6] org.apache.catalina.realm.JNDIRealm.checkCredentials Username [John Fryer] NOT successfully authenticated
+09-May-2025 11:14:33.840 FINER [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+09-May-2025 11:14:33.840 FINE [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationDispatcher.doForward The response class [class org.apache.catalina.connector.Response] could not be unwraped to the Catalina response class and will be closed immediately after the forward
+09-May-2025 11:21:12.518 FINER [Thread-3] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+09-May-2025 11:21:12.518 FINER [Thread-3] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 11:21:12.518 FINER [Thread-3] org.apache.catalina.realm.JNDIRealm.close Closing directory context
+09-May-2025 11:21:12.518 INFO [Thread-3] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+09-May-2025 11:21:12.518 INFO [Thread-3] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+09-May-2025 11:33:57.404 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+09-May-2025 11:33:57.404 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+09-May-2025 11:33:57.404 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3c49fab6')
+09-May-2025 11:33:57.622 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+09-May-2025 11:33:57.669 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+09-May-2025 11:33:57.669 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+09-May-2025 11:33:57.669 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 11:33:57.669 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+09-May-2025 11:34:16.255 FINER [http-nio-9090-exec-10] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+09-May-2025 11:34:22.583 FINER [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+09-May-2025 11:34:22.583 FINE [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationDispatcher.doForward The response class [class org.apache.catalina.connector.Response] could not be unwraped to the Catalina response class and will be closed immediately after the forward
+09-May-2025 11:34:31.991 FINER [http-nio-9090-exec-4] org.apache.catalina.realm.JNDIRealm.getAttributeValue   retrieving attribute userPassword
+09-May-2025 11:34:31.992 FINER [http-nio-9090-exec-4] org.apache.catalina.realm.JNDIRealm.getUser Found user by pattern [org.apache.catalina.realm.JNDIRealm$User@20566675]
+09-May-2025 11:34:31.992 FINER [http-nio-9090-exec-4] org.apache.catalina.realm.JNDIRealm.compareCredentials   validating credentials
+09-May-2025 11:34:31.992 FINER [http-nio-9090-exec-4] org.apache.catalina.realm.JNDIRealm.checkCredentials Username [John Fryer] NOT successfully authenticated
+09-May-2025 11:34:31.997 FINER [http-nio-9090-exec-4] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+09-May-2025 11:34:31.997 FINE [http-nio-9090-exec-4] org.apache.catalina.core.ApplicationDispatcher.doForward The response class [class org.apache.catalina.connector.Response] could not be unwraped to the Catalina response class and will be closed immediately after the forward
+09-May-2025 12:49:08.227 FINER [Catalina-utility-1] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+09-May-2025 12:49:08.227 FINER [Catalina-utility-1] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 12:49:08.227 FINER [Catalina-utility-1] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+09-May-2025 12:49:08.227 FINER [Catalina-utility-1] org.apache.catalina.realm.JNDIRealm.close Closing directory context
+09-May-2025 12:49:08.274 FINER [Catalina-utility-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+09-May-2025 12:49:08.274 FINER [Catalina-utility-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+09-May-2025 12:49:08.274 FINER [Catalina-utility-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 12:49:08.274 FINER [Catalina-utility-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+09-May-2025 12:49:08.290 FINER [Thread-4] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+09-May-2025 12:49:08.290 FINER [Thread-4] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 12:49:08.290 FINER [Thread-4] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+09-May-2025 12:49:08.290 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+09-May-2025 12:49:08.290 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+09-May-2025 12:49:10.727 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+09-May-2025 12:49:10.727 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+09-May-2025 12:49:10.727 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@51671b08')
+09-May-2025 12:49:10.838 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+09-May-2025 12:49:10.868 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+09-May-2025 12:49:10.868 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+09-May-2025 12:49:10.868 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 12:49:10.868 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+09-May-2025 12:49:22.784 FINER [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+09-May-2025 13:11:25.450 FINER [Thread-4] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+09-May-2025 13:11:25.450 FINER [Thread-4] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 13:11:25.450 FINER [Thread-4] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+09-May-2025 13:11:25.450 FINER [Thread-4] org.apache.catalina.realm.JNDIRealm.close Closing directory context
+09-May-2025 13:11:25.464 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+09-May-2025 13:11:25.464 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+09-May-2025 13:11:27.958 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+09-May-2025 13:11:27.958 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+09-May-2025 13:11:27.959 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1162410a')
+09-May-2025 13:11:28.075 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+09-May-2025 13:11:28.116 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+09-May-2025 13:11:28.116 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+09-May-2025 13:11:28.116 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 13:11:28.117 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+09-May-2025 13:11:42.213 FINER [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+09-May-2025 13:11:42.214 FINE [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationDispatcher.doForward The response class [class org.apache.catalina.connector.Response] could not be unwraped to the Catalina response class and will be closed immediately after the forward
+09-May-2025 13:11:58.504 FINER [http-nio-9090-exec-8] org.apache.catalina.realm.JNDIRealm.getAttributeValue   retrieving attribute userPassword
+09-May-2025 13:11:58.505 FINER [http-nio-9090-exec-8] org.apache.catalina.realm.JNDIRealm.getUser Found user by pattern [org.apache.catalina.realm.JNDIRealm$User@387321a4]
+09-May-2025 13:11:58.505 FINER [http-nio-9090-exec-8] org.apache.catalina.realm.JNDIRealm.compareCredentials   validating credentials
+09-May-2025 13:11:58.505 FINER [http-nio-9090-exec-8] org.apache.catalina.realm.JNDIRealm.checkCredentials Username [John Fryer] NOT successfully authenticated
+09-May-2025 13:11:58.508 FINER [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for further output
+09-May-2025 13:11:58.508 FINE [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationDispatcher.doForward The response class [class org.apache.catalina.connector.Response] could not be unwraped to the Catalina response class and will be closed immediately after the forward
+09-May-2025 16:40:26.110 FINER [Thread-4] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+09-May-2025 16:40:26.110 FINER [Thread-4] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 16:40:26.110 FINER [Thread-4] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+09-May-2025 16:40:26.110 FINER [Thread-4] org.apache.catalina.realm.JNDIRealm.close Closing directory context
+09-May-2025 16:40:26.110 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+09-May-2025 16:40:26.110 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+09-May-2025 16:40:28.876 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+09-May-2025 16:40:28.876 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+09-May-2025 16:40:28.876 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3b0f7d9d')
+09-May-2025 16:40:29.001 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+09-May-2025 16:40:29.269 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+09-May-2025 16:40:29.269 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+09-May-2025 16:40:29.271 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 16:40:29.271 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+09-May-2025 16:44:17.566 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+09-May-2025 16:44:17.567 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+09-May-2025 16:44:17.568 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3b0f7d9d')
+09-May-2025 16:44:17.691 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+09-May-2025 16:44:17.775 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+09-May-2025 16:44:17.775 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+09-May-2025 16:44:17.775 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 16:44:17.775 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+09-May-2025 16:44:17.785 FINER [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+09-May-2025 16:44:17.785 FINER [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 16:44:17.785 FINER [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+09-May-2025 16:44:17.785 FINER [main] org.apache.catalina.realm.JNDIRealm.close Closing directory context
+09-May-2025 16:44:17.785 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+09-May-2025 16:44:17.785 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+09-May-2025 16:45:22.348 FINER [Thread-3] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+09-May-2025 16:45:22.348 FINER [Thread-3] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 16:45:22.348 FINER [Thread-3] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+09-May-2025 16:45:22.348 FINER [Thread-3] org.apache.catalina.realm.JNDIRealm.close Closing directory context
+09-May-2025 16:45:22.348 INFO [Thread-3] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+09-May-2025 16:45:22.348 INFO [Thread-3] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+09-May-2025 16:45:24.887 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+09-May-2025 16:45:24.887 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+09-May-2025 16:45:24.888 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@9fecdf1')
+09-May-2025 16:45:25.012 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+09-May-2025 16:45:25.056 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+09-May-2025 16:45:25.057 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+09-May-2025 16:45:25.057 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 16:45:25.057 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+09-May-2025 16:49:29.741 FINER [Thread-3] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+09-May-2025 16:49:29.741 FINER [Thread-3] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 16:49:29.741 FINER [Thread-3] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+09-May-2025 16:49:29.741 FINER [Thread-3] org.apache.catalina.realm.JNDIRealm.close Closing directory context
+09-May-2025 16:49:29.757 INFO [Thread-3] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+09-May-2025 16:49:29.757 INFO [Thread-3] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+09-May-2025 16:49:32.335 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+09-May-2025 16:49:32.335 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+09-May-2025 16:49:32.335 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@710b30ef')
+09-May-2025 16:49:32.460 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+09-May-2025 16:49:32.507 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+09-May-2025 16:49:32.507 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+09-May-2025 16:49:32.507 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 16:49:32.507 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+09-May-2025 16:54:38.973 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+09-May-2025 16:54:38.974 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+09-May-2025 16:54:38.977 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6272c96f')
+09-May-2025 16:54:39.198 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+09-May-2025 16:54:39.291 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+09-May-2025 16:54:39.291 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+09-May-2025 16:54:39.291 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 16:54:39.291 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+09-May-2025 16:54:39.375 FINER [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+09-May-2025 16:54:39.375 FINER [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 16:54:39.375 FINER [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+09-May-2025 16:54:39.375 FINER [main] org.apache.catalina.realm.JNDIRealm.close Closing directory context
+09-May-2025 16:54:39.385 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+09-May-2025 16:54:39.385 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+09-May-2025 16:56:32.667 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+09-May-2025 16:56:32.667 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+09-May-2025 16:56:32.667 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@742d4e15')
+09-May-2025 16:56:32.917 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+09-May-2025 16:56:33.010 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+09-May-2025 16:56:33.010 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+09-May-2025 16:56:33.010 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 16:56:33.010 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+09-May-2025 16:56:33.042 FINER [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+09-May-2025 16:56:33.042 FINER [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 16:56:33.042 FINER [main] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+09-May-2025 16:56:33.042 FINER [main] org.apache.catalina.realm.JNDIRealm.close Closing directory context
+09-May-2025 16:56:33.057 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+09-May-2025 16:56:33.057 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+09-May-2025 16:58:16.152 FINER [Thread-3] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+09-May-2025 16:58:16.152 FINER [Thread-3] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 16:58:16.152 FINER [Thread-3] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+09-May-2025 16:58:16.152 FINER [Thread-3] org.apache.catalina.realm.JNDIRealm.close Closing directory context
+09-May-2025 16:58:16.198 INFO [Thread-3] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+09-May-2025 16:58:16.198 INFO [Thread-3] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+09-May-2025 16:58:20.371 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+09-May-2025 16:58:20.371 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+09-May-2025 16:58:20.371 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4bee18dc')
+09-May-2025 16:58:20.604 FINER [main] org.apache.catalina.realm.JNDIRealm.getDirectoryContextEnvironment Connecting to URL ldap://localhost:10389
+09-May-2025 16:58:20.699 FINER [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+09-May-2025 16:58:20.699 FINER [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+09-May-2025 16:58:20.699 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 16:58:20.699 FINER [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SecurityFilter'
+09-May-2025 17:00:01.402 FINER [Thread-3] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+09-May-2025 17:00:01.402 FINER [Thread-3] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+09-May-2025 17:00:01.402 FINER [Thread-3] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SecurityFilter'
+09-May-2025 17:00:01.402 FINER [Thread-3] org.apache.catalina.realm.JNDIRealm.close Closing directory context
+09-May-2025 17:00:01.449 INFO [Thread-3] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+09-May-2025 17:00:01.449 INFO [Thread-3] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

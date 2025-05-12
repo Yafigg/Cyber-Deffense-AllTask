@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <display-name>Task4 LDAP Custom Authentication</display-name>
+
+    <!-- Mapping Servlet Custom LDAP Auth -->
+    <servlet>
+        <servlet-name>LdapAuthServlet</servlet-name>
+        <servlet-class>LdapAuthServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LdapAuthServlet</servlet-name>
+        <url-pattern>/ldapLogin</url-pattern>
+    </servlet-mapping>
+
+    <!-- Security Filter untuk proteksi /secure/* -->
+    <filter>
+        <filter-name>SecurityFilter</filter-name>
+        <filter-class>SecurityFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/secure/*</url-pattern>
+    </filter-mapping>
+
+    <!-- Welcome File List -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <!-- Error Page (opsional) -->
+    <error-page>
+        <error-code>403</error-code>
+        <location>/error.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error.jsp</location>
+    </error-page>
+</web-app>
